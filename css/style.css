@@ -1,0 +1,37 @@
+
+/* Root Variables */
+:root   {
+    --1st-color: #EE2737;
+    --2nd-color: #9BEE27;
+    --3rd-color: #27EEDE;
+    --4th-color: #7A27EE;
+
+    --dark-color: #36454F;
+    --light-color: #FAF9F6;
+}
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+}
+
+.ribbon {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ribbon-text {
+    font-size: 22px;
+}
